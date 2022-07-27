@@ -110,10 +110,26 @@ nav ul li a{
 }
 
 
+@media (min-width: 0px) {
+    .hero{
+        height: 100vh;
+    }
+    .back-video{
+        height: 100%;
+        width: auto;
+    }
+}
+
+/*@media (min-width: 1075px) {
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
 
 
 
-@media (min-aspect-ratio:16/9){
+/*@media (min-aspect-ratio:16/9){
     .back-video{
         width: 100%;
         height: auto;
