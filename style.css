@@ -5,18 +5,25 @@
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
     width: fit-content;
-    height: fit-content;
+    
     
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-   scroll-snap-align: start;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     
     
 }
 
 
+
+div .hero{
+    scroll-snap-align: start;
+    overflow: scroll;
+
+}
 
 .hero{
     scroll-snap-align: start;
@@ -110,6 +117,8 @@ nav ul li a{
 }
 
 .back-video{
+    
+    
     
     position: absolute;
     
